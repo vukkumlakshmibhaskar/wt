@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <script>
+        function validateRegistration() {
+            let username = document.forms["registrationForm"]["username"].value;
+            let password = document.forms["registrationForm"]["password"].value;
+            let confirmPassword = document.forms["registrationForm"]["confirmPassword"].value;
+            let email = document.forms["registrationForm"]["email"].value;
+
+            if (username === "") {
+                alert("Username is required.");
+                return false;
+            }
+
+            if (password === "" || password.length < 6) {
+                alert("Password should be at least 6 characters.");
+                return false;
+            }
+
+            if (password !== confirmPassword) {
+                alert("Passwords do not match.");
+                return false;
+            }
+
+            if (email === "" || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+                alert("Please enter a valid email address.");
+                return false;
+            }
+
+            alert("Registration successful!");
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <h1>Registration</h1>
+    <form name="registrationForm" onsubmit="return validateRegistration()" method="post">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username"><br><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password"><br><br>
+        <label for="confirmPassword">Confirm Password:</label><br>
+        <input type="password" id="confirmPassword"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email"><br><br>
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
