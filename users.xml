@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+    <user>
+        <id>1</id>
+        <name>John Doe</name>
+        <email>johndoe@example.com</email>
+        <phone>1234567890</phone>
+    </user>
+    <user>
+        <id>2</id>
+        <name>Jane Smith</name>
+        <email>janesmith@example.com</email>
+        <phone>0987654321</phone>
+    </user>
+    <user>
+        <id>3</id>
+        <name>Michael Brown</name>
+        <email>michaelb@example.com</email>
+        <phone>5678901234</phone>
+    </user>
+    <user>
+        <id>4</id>
+        <name>Emily Davis</name>
+        <email>emilyd@example.com</email>
+        <phone>6789012345</phone>
+    </user>
+    <user>
+        <id>5</id>
+        <name>Chris Wilson</name>
+        <email>chrisw@example.com</email>
+        <phone>7890123456</phone>
+    </user>
+    <user>
+        <id>6</id>
+        <name>Sarah Miller</name>
+        <email>sarahm@example.com</email>
+        <phone>8901234567</phone>
+    </user>
+    <user>
+        <id>7</id>
+        <name>David Johnson</name>
+        <email>davidj@example.com</email>
+        <phone>9012345678</phone>
+    </user>
+    <user>
+        <id>8</id>
+        <name>Laura Garcia</name>
+        <email>laurag@example.com</email>
+        <phone>2345678901</phone>
+    </user>
+    <user>
+        <id>9</id>
+        <name>James Lee</name>
+        <email>jamesl@example.com</email>
+        <phone>3456789012</phone>
+    </user>
+    <user>
+        <id>10</id>
+        <name>Anna Walker</name>
+        <email>annaw@example.com</email>
+        <phone>4567890123</phone>
+    </user>
+</users>
